@@ -1,7 +1,5 @@
 name: Deploy Project
-
-on: [push,workflow_disptach]
-
+on: [push, workflow_disptach]
 jobs:
   test:
     runs-on: ubuntu-latest
