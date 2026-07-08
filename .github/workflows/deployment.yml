@@ -1,10 +1,11 @@
 name: Deploy Project
-on: [push, workflow_disptach]
+
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Get Code
+      - name: Get Code new
         uses: actions/checkout@v4
 
       - name: Install Node.js
